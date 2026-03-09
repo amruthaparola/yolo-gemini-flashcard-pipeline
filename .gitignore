@@ -1,7 +1,7 @@
-# Secret API Keys
+# API Keys
 .env
 
-# YOLO Training outputs (these are huge and will break GitHub)
+# YOLO Training outputs 
 runs/
 yolov8n.pt
 
@@ -17,6 +17,9 @@ __pycache__/
 # Mac system files
 .DS_Store
 
-# Ignore the massive dataset (you can just upload a few sample pages instead)
+# Ignore the massive dataset and output directories
 dataset/
 output_cards/
+images/
+raw_data/
+final_flashcards/
