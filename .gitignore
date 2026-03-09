@@ -1,0 +1,22 @@
+# Secret API Keys
+.env
+
+# YOLO Training outputs (these are huge and will break GitHub)
+runs/
+yolov8n.pt
+
+# Python Virtual Environments
+venv/
+env/
+.venv/
+
+# Python Cache files
+__pycache__/
+*.pyc
+
+# Mac system files
+.DS_Store
+
+# Ignore the massive dataset (you can just upload a few sample pages instead)
+dataset/
+output_cards/
